@@ -4,10 +4,10 @@ function loadCards() {
 
     // load blank into position 0
     cardImages[0] = new Image();
-    cardImages[0].src = "../images/blank.png"
+    cardImages[0].src = "images/blank.png"
     // load back into position 1
     cardImages[1] = new Image();
-    cardImages[1].src = "../images/back.png"
+    cardImages[1].src = "images/back.png"
     // load the rest of the cards, 24 card images
     for (var i = 2; i <= 25 ; i++) {
         cardImages[i] = new Image();
