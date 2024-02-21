@@ -145,11 +145,11 @@ $(document).ready(() => {
                                 attempts++;
                                 $(this).slideUp(500, function() {
                                     $(this).attr("src", cardImages[0].src);
-                                    $(this).slideDown(500);
+                                    $(this).slideDown(0);
                                 });
                                 $firstPick.slideUp(500, function() {
                                     $firstPick.attr("src", cardImages[0].src);
-                                    $firstPick.slideDown(500);
+                                    $firstPick.slideDown(0);
                                 });
                                 if (score == winning_score) {
                                     updatePlayerScore(winning_score / attempts);
